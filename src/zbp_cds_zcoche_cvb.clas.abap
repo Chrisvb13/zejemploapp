@@ -1,0 +1,5 @@
+CLASS zbp_cds_zcoche_cvb DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zcds_zcoche_cvb.
+ENDCLASS.
+
+CLASS zbp_cds_zcoche_cvb IMPLEMENTATION.
+ENDCLASS.

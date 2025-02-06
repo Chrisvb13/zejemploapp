@@ -1,0 +1,4 @@
+@EndUserText.label: 'service definition de la cds zcoche_cvb'
+define service ZSD_CDS_ZCOCHE_CVB {
+  expose ZCDS_ZCOCHE_CVB;
+}

@@ -1,0 +1,15 @@
+managed implementation in class zbp_cds_zcoche_cvb unique;
+strict ( 2 );
+
+
+define behavior for ZCDS_ZCOCHE_CVB //alias <alias_name>
+persistent table zcoche_cvb
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) Id;
+}
